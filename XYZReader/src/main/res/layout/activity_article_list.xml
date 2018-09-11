@@ -11,13 +11,14 @@
         android:layout_height="112dp"
         android:background="@color/theme_primary_dark"
         android:fitsSystemWindows="true"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/theme_primary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:elevation="4dp"
             android:fitsSystemWindows="true">
 
             <android.support.v7.widget.Toolbar
@@ -55,7 +56,7 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="116dp"
+            android:paddingTop="112dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp" />
